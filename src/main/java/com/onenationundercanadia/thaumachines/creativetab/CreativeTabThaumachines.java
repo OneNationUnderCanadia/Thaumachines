@@ -12,7 +12,7 @@ public class CreativeTabThaumachines {
         @Override
         public Item getTabIconItem() {
 
-            return ModItems.testItem;
+            return ModItems.receptacleCore;
 
         }
 

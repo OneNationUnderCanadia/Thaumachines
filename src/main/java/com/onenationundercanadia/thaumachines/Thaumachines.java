@@ -3,6 +3,7 @@ package com.onenationundercanadia.thaumachines;
 import com.onenationundercanadia.thaumachines.handler.ConfigurationHandler;
 import com.onenationundercanadia.thaumachines.init.ModBlocks;
 import com.onenationundercanadia.thaumachines.init.ModItems;
+import com.onenationundercanadia.thaumachines.init.Recipes;
 import com.onenationundercanadia.thaumachines.proxy.IProxy;
 import com.onenationundercanadia.thaumachines.refrence.Refrence;
 import com.onenationundercanadia.thaumachines.utility.LogHelper;
@@ -34,17 +35,22 @@ public class Thaumachines {
         ModItems.init();
         ModBlocks.init();
 
-        LogHelper.info("Pre Initialization Complete!");
+        LogHelper.info("Pre-initialization complete!");
 
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
 
+        Recipes.init();
+        LogHelper.info("Initialization complete!");
+
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
+
+        LogHelper.info("Post-initialization complete!");
 
     }
 
