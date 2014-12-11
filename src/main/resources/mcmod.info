@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Thaumachines",
+  "name": "Thaumachines",
+  "description": "Gives you IC2-style machines that run based on Thaumcraft :D",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["OneNationUnderCanadia"],
+  "credits": "Pahimar, for providing me with the information to create this",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
