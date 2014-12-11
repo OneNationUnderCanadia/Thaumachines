@@ -11,7 +11,7 @@ public class Refrence {
     public static final String VERSION = "1.7.10-1.0";
     public static final String SERVER_PROXY_CLASS = "com.onenationundercanadia.thaumachines.proxy.ServerProxy";
     public static final String CLIENT_PROXY_CLASS = "com.onenationundercanadia.thaumachines.proxy.ClientProxy";
+    @Deprecated
     public static final String GUI_FACTORY_CLASS = "com.onenationundercanadia.thaumachines.client.gui.GuiFactory";
-    public static final String CONFIG_FILE = "config.thaumachines.cfg";
 
 }

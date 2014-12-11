@@ -1,3 +1,24 @@
-item.thaumachines:receptacleCore.name=Receptacle core
-tile.thaumachines:wandReceptacle.name=Wand receptacle
+#Thaumachines
+
+#items
+item.thaumachines:receptacleCore.name=Receptacle Core
+
+#blocks
+tile.thaumachines:wandReceptacle.name=Wand Receptacle
+tile.thaumachines:arcanePurifier.name=Arcane Purifier
+tile.thaumachines:arcaneFurnace.name=Arcane Furnace
+tile.thaumachines:capFormer.name=Cap Former
+
+#creative tabs
 itemGroup.thaumachines=Thaumachines
+
+#research tabs
+tc.research_category.Thaumachines=Thaumachines
+
+#research names
+tc.research_name.receptacles=Receptacles
+tc.research_name.purifier=Arcane Purifier
+
+#research text
+tc.research_text.receptacles=Something to hold your wand! (WIP)
+tc.research_text.purifier=A magical macerator?!? (WIP)

@@ -11,6 +11,6 @@
   "credits": "Pahimar, for providing me with the information to create this",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["Thaumcraft"]
 }
 ]

@@ -1,6 +1,7 @@
 package com.onenationundercanadia.thaumachines.item;
 
 import com.onenationundercanadia.thaumachines.init.ModItems;
+import com.onenationundercanadia.thaumachines.refrence.RefrenceNames;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -10,7 +11,7 @@ public class ItemReceptacleCore extends ItemThaumachines {
     public ItemReceptacleCore(){
 
         super();
-        this.setUnlocalizedName("receptacleCore");
+        this.setUnlocalizedName(RefrenceNames.Items.RECEPTACLE_CORE);
 
     }
 

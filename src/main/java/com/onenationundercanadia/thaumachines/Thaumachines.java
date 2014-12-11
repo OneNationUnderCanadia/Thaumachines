@@ -6,6 +6,7 @@ import com.onenationundercanadia.thaumachines.init.ModItems;
 import com.onenationundercanadia.thaumachines.init.Recipes;
 import com.onenationundercanadia.thaumachines.proxy.IProxy;
 import com.onenationundercanadia.thaumachines.refrence.Refrence;
+import com.onenationundercanadia.thaumachines.research.ResearchThaumachines;
 import com.onenationundercanadia.thaumachines.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -18,7 +19,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
  * Created by OneNationUnderCanadia on 12/4/2014.
  */
 
-@Mod(modid= Refrence.MOD_ID, name=Refrence.MOD_NAME, version=Refrence.VERSION, guiFactory = Refrence.GUI_FACTORY_CLASS)
+@Mod(modid= Refrence.MOD_ID, name=Refrence.MOD_NAME, version=Refrence.VERSION)
 public class Thaumachines {
 
     @Mod.Instance(Refrence.MOD_ID)
@@ -50,6 +51,8 @@ public class Thaumachines {
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event){
 
+        ResearchThaumachines.registerTab();
+        ResearchThaumachines.putResearchInTab();
         LogHelper.info("Post-initialization complete!");
 
     }
