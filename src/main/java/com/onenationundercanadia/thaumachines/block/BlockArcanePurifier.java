@@ -2,6 +2,7 @@ package com.onenationundercanadia.thaumachines.block;
 
 import com.onenationundercanadia.thaumachines.init.ModBlocks;
 import com.onenationundercanadia.thaumachines.refrence.RefrenceNames;
+import com.onenationundercanadia.thaumachines.refrence.RefrenceResourceLocations;
 import com.onenationundercanadia.thaumachines.tileentity.TileEntityArcanePurifier;
 import com.onenationundercanadia.thaumachines.utility.recipes.ThaumachinesArcaneRecipe;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -12,6 +13,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+import net.minecraftforge.common.util.ForgeDirection;
 import thaumcraft.api.aspects.Aspect;
 import thaumcraft.api.aspects.AspectList;
 import thaumcraft.api.crafting.ShapedArcaneRecipe;
@@ -26,6 +28,7 @@ public class BlockArcanePurifier extends BlockThaumachines {
 
         super();
         this.setBlockName(RefrenceNames.Blocks.ARCANE_PURIFIER);
+        this.setBlockTextureName(RefrenceResourceLocations.ARCANE_PURIFIER_SIDES);
 
     }
 
@@ -43,7 +46,7 @@ public class BlockArcanePurifier extends BlockThaumachines {
             if (tile != null) {
 
                 TileEntityArcanePurifier arcanePurifier = (TileEntityArcanePurifier) tile;
-                if(player.isSneaking()) {
+                if(!player.isSneaking()) {
 
 
 

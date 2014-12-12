@@ -4,10 +4,13 @@ import net.minecraft.util.ResourceLocation;
 import thaumcraft.api.aspects.Aspect;
 import thaumcraft.api.aspects.AspectList;
 
-/**
- * Created by BJARK on 12/11/2014.
- */
 public class RefrenceResourceLocations {
+
+    public static final String ARCANE_PURIFIER_UP = "thaumachines:textures/blocks/arcanePurifierUp.png";
+    public static final String ARCANE_PURIFIER_FRONT = "thaumachines:textures/blocks/arcanePurifierFront.png";
+    public static final String ARCANE_PURIFIER_BACK = "thaumachines:textures/blocks/arcanePurifierBack.png";
+    public static final String ARCANE_PURIFIER_SIDES = "thaumachines:textures/blocks/arcanePurifierSides.png";
+    public static final String ARCANE_PURIFIER_DOWN = "thaumachines:textures/blocks/arcanePurifierDown.png";
 
     public static final ResourceLocation RECEPTACLE_CORE = new ResourceLocation("thaumachines:textures/items/receptacleCore.png");
 

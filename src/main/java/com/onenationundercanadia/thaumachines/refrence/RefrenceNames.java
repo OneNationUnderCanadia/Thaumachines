@@ -9,7 +9,7 @@ public class RefrenceNames {
 
         public static final String WAND_RECEPTACLE = "wandReceptacle";
         public static final String ARCANE_PURIFIER = "arcanePurifier";
-        public static final String ARCANE_FURNACE = "arcaneFurnace";
+        public static final String ARCANE_FURNACE_UP = "arcaneFurnaceUp";
         public static final String CAP_FORMER = "capFormer";
 
     }
