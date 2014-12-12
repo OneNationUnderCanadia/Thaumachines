@@ -1,7 +1,7 @@
 Thaumachines
 ============
 
-Repository for Minecraft mod I am making for a final project
+Creating machines that run off of magic!
 
 To run, you will need:
 
