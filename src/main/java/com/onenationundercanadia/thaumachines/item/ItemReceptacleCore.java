@@ -20,20 +20,13 @@ public class ItemReceptacleCore extends ItemThaumachines {
     public static final AspectList RECEPTACLE_CORE_ASPECTS = new AspectList().add(Aspect.ORDER, 2).add(Aspect.AIR, 2);
 
     // Recipe object
-    public static ThaumachinesArcaneRecipe receptacleCoreRecipe;
+    public static ThaumachinesArcaneRecipe receptacleCoreRecipe = new ThaumachinesArcaneRecipe("receptacleCore", "receptacles", new ItemStack(ModItems.receptacleCore), RECEPTACLE_CORE_ASPECTS, "isi", "s s", "isi", 's', new ItemStack(Items.stick), 'i', new ItemStack(Items.iron_ingot));;
 
     // Constructor
     public ItemReceptacleCore(){
 
         super();
         this.setUnlocalizedName(RefrenceNames.Items.RECEPTACLE_CORE);
-
-    }
-
-    // Initializes the recipe
-    public static void recipe() {
-
-        receptacleCoreRecipe = new ThaumachinesArcaneRecipe("receptacleCore", "receptacles", new ItemStack(ModItems.receptacleCore), RECEPTACLE_CORE_ASPECTS, "isi", "s s", "isi", 's', new ItemStack(Items.stick), 'i', new ItemStack(Items.iron_ingot));
 
     }
 

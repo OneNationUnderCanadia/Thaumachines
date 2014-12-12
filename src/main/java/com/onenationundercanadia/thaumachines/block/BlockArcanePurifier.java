@@ -28,14 +28,13 @@ public class BlockArcanePurifier extends BlockThaumachines {
     public static final AspectList PURIFIER_ASPECTS = new AspectList().add(Aspect.FIRE, 10).add(Aspect.ORDER, 20).add(Aspect.ENTROPY, 10);
 
     // Recipe that can be accessed from elsewhere in the mod
-    public static ThaumachinesArcaneRecipe purifierRecipe;
+    public static ThaumachinesArcaneRecipe purifierRecipe = new ThaumachinesArcaneRecipe("arcanePurifier", "purifier", new ItemStack(ModBlocks.arcanePurifier), PURIFIER_ASPECTS, "bbb", "brb", "bbb", 'b', new ItemStack(Blocks.nether_brick), 'r', new ItemStack(ModBlocks.wandReceptacle));;
 
     // Constructor
     public BlockArcanePurifier() {
 
         super();
         this.setBlockName(RefrenceNames.Blocks.ARCANE_PURIFIER);
-        this.setBlockTextureName(RefrenceResourceLocations.ARCANE_PURIFIER_SIDES);
 
     }
 
@@ -45,13 +44,6 @@ public class BlockArcanePurifier extends BlockThaumachines {
     public void registerBlockIcons(IIconRegister iconRegister) {
 
         blockIcon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
-
-    }
-
-    // Initializes recipe
-    public static void recipe() {
-
-        purifierRecipe = new ThaumachinesArcaneRecipe("arcanePurifier", "purifier", new ItemStack(ModBlocks.arcanePurifier), PURIFIER_ASPECTS, "bbb", "brb", "bbb", 'b', new ItemStack(Blocks.nether_brick), 'r', new ItemStack(ModBlocks.wandReceptacle));
 
     }
 

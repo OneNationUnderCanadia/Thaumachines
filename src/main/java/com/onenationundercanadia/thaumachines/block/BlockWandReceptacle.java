@@ -23,20 +23,13 @@ public class BlockWandReceptacle extends BlockThaumachines {
     public static final AspectList RECEPTACLE_ASPECTS = new AspectList().add(Aspect.FIRE, 10).add(Aspect.AIR, 2).add(Aspect.ORDER, 10);
 
     // Recipe object
-    public static ThaumachinesArcaneRecipe receptacleRecipe;
+    public static ThaumachinesArcaneRecipe receptacleRecipe = new ThaumachinesArcaneRecipe("wandReceptacle", "receptacle", new ItemStack(ModBlocks.wandReceptacle), RECEPTACLE_ASPECTS, " g ", "gcg", " g ", 'g', new ItemStack(Items.gold_ingot), 'c', new ItemStack(ModItems.receptacleCore));;
 
     // Constructor and super
     public BlockWandReceptacle() {
 
         super();
         this.setBlockName("wandReceptacle");
-
-    }
-
-    // Initializes recipe
-    public static void recipe() {
-
-        receptacleRecipe = new ThaumachinesArcaneRecipe("wandReceptacle", "receptacle", new ItemStack(ModBlocks.wandReceptacle), RECEPTACLE_ASPECTS, " g ", "gcg", " g ", 'g', new ItemStack(Items.gold_ingot), 'c', new ItemStack(ModItems.receptacleCore));
 
     }
 

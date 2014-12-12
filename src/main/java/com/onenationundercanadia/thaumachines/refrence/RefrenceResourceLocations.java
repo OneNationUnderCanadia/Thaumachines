@@ -11,11 +11,11 @@ import thaumcraft.api.aspects.AspectList;
 // Refrence class for resource locations / aspect lists
 public class RefrenceResourceLocations {
 
-    public static final String ARCANE_PURIFIER_UP = "thaumachines:textures/blocks/arcanePurifierUp.png";
-    public static final String ARCANE_PURIFIER_FRONT = "thaumachines:textures/blocks/arcanePurifierFront.png";
-    public static final String ARCANE_PURIFIER_BACK = "thaumachines:textures/blocks/arcanePurifierBack.png";
-    public static final String ARCANE_PURIFIER_SIDES = "thaumachines:textures/blocks/arcanePurifierSides.png";
-    public static final String ARCANE_PURIFIER_DOWN = "thaumachines:textures/blocks/arcanePurifierDown.png";
+    public static final ResourceLocation ARCANE_PURIFIER_UP = new ResourceLocation("thaumachines:textures/blocks/arcanePurifierUp.png");
+    public static final ResourceLocation ARCANE_PURIFIER_FRONT = new ResourceLocation("thaumachines:textures/blocks/arcanePurifierFront.png");
+    public static final ResourceLocation ARCANE_PURIFIER_BACK = new ResourceLocation("thaumachines:textures/blocks/arcanePurifierBack.png");
+    public static final ResourceLocation ARCANE_PURIFIER_SIDES = new ResourceLocation("thaumachines:textures/blocks/arcanePurifierSides.png");
+    public static final ResourceLocation ARCANE_PURIFIER_DOWN = new ResourceLocation("thaumachines:textures/blocks/arcanePurifierDown.png");
 
     public static final ResourceLocation RECEPTACLE_CORE = new ResourceLocation("thaumachines:textures/items/receptacleCore.png");
 
