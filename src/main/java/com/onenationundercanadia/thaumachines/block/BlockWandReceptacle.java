@@ -12,14 +12,20 @@ import thaumcraft.api.aspects.Aspect;
 import thaumcraft.api.aspects.AspectList;
 
 /**
- * Created by BJARK on 12/9/2014.
+ * Created by OneNationUnderCanadia on 12/9/2014.
  */
+
+// Holds wands in machines
+// TODO: Visually holds a wand inside of it
 public class BlockWandReceptacle extends BlockThaumachines {
 
+    // Aspects to craft
     public static final AspectList RECEPTACLE_ASPECTS = new AspectList().add(Aspect.FIRE, 10).add(Aspect.AIR, 2).add(Aspect.ORDER, 10);
 
+    // Recipe object
     public static ThaumachinesArcaneRecipe receptacleRecipe;
 
+    // Constructor and super
     public BlockWandReceptacle() {
 
         super();
@@ -27,6 +33,7 @@ public class BlockWandReceptacle extends BlockThaumachines {
 
     }
 
+    // Initializes recipe
     public static void recipe() {
 
         receptacleRecipe = new ThaumachinesArcaneRecipe("wandReceptacle", "receptacle", new ItemStack(ModBlocks.wandReceptacle), RECEPTACLE_ASPECTS, " g ", "gcg", " g ", 'g', new ItemStack(Items.gold_ingot), 'c', new ItemStack(ModItems.receptacleCore));
