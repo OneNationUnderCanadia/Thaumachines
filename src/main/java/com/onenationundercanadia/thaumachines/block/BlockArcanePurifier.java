@@ -1,14 +1,26 @@
 package com.onenationundercanadia.thaumachines.block;
 
+import com.onenationundercanadia.thaumachines.init.ModBlocks;
 import com.onenationundercanadia.thaumachines.refrence.RefrenceNames;
 import com.onenationundercanadia.thaumachines.tileentity.TileEntityArcanePurifier;
+import com.onenationundercanadia.thaumachines.utility.recipes.ThaumachinesArcaneRecipe;
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import thaumcraft.api.aspects.Aspect;
 import thaumcraft.api.aspects.AspectList;
+import thaumcraft.api.crafting.ShapedArcaneRecipe;
 
 public class BlockArcanePurifier extends BlockThaumachines {
+
+    public static final AspectList PURIFIER_ASPECTS = new AspectList().add(Aspect.FIRE, 10).add(Aspect.ORDER, 20).add(Aspect.ENTROPY, 10);
+
+    public static ThaumachinesArcaneRecipe purifierRecipe;
 
     public BlockArcanePurifier() {
 
@@ -19,18 +31,7 @@ public class BlockArcanePurifier extends BlockThaumachines {
 
     public static void recipe() {
 
-        //GameRegistry.addRecipe(new ShapedArcaneRecipe("arcanePurifier", new ItemStack(ModBlocks.arcanePurifier), requiredAspects(), ));
-
-    }
-
-    private static AspectList requiredAspects() {
-
-        AspectList purifierAspects = new AspectList();
-
-        purifierAspects.add(Aspect.ORDER, 20);
-        purifierAspects.add(Aspect.FIRE, 10);
-
-        return purifierAspects;
+        purifierRecipe = new ThaumachinesArcaneRecipe("arcanePurifier", "purifier", new ItemStack(ModBlocks.arcanePurifier), PURIFIER_ASPECTS, "bbb", "brb", "bbb", 'b', new ItemStack(Blocks.nether_brick), 'r', new ItemStack(ModBlocks.wandReceptacle));
 
     }
 

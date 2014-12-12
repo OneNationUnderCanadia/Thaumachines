@@ -15,10 +15,12 @@ itemGroup.thaumachines=Thaumachines
 #research tabs
 tc.research_category.Thaumachines=Thaumachines
 
-#research names
+#thaumcraft research
 tc.research_name.receptacles=Receptacles
-tc.research_name.purifier=Arcane Purifier
-
-#research text
 tc.research_text.receptacles=Something to hold your wand! (WIP)
+tc.research_page.receptacles.0=(WIP) These amazing blocks can hold your wand, displaying it for all to see!  They are also used in wand-powered machines.
+tc.research_page.receptacles.1=In order to craft them, you need receptacle cores:
+
+tc.research_name.purifier=Arcane Purifier
 tc.research_text.purifier=A magical macerator?!? (WIP)
+tc.research_page.purifier.0=(WIP) Have you ever thought, "Gee, Thaumcraft's ore purification system sucks, really sucks, but I wanna use all magic"?  If so, this is for you!  It acts as a macerator powered by a wand!
