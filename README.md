@@ -12,8 +12,8 @@ http://www.eclipse.org/downloads/?
 Minecraft Forge 1.7.10-10.13.2.1230:
 http://files.minecraftforge.net/
 
-Thaumcraft 4.2.0.0:
-http://www.curse.com/mc-mods/minecraft/223628-thaumcraft/2212317
+Thaumcraft 4.2.1.0:
+http://www.curse.com/mc-mods/minecraft/223628-thaumcraft/2215796
 
 CodeChickenCore 1.7.10-1.0.1.8:
 http://www.curse.com/mc-mods/minecraft/222213-codechickencore/2207568
