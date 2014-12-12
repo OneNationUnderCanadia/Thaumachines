@@ -9,6 +9,11 @@ import thaumcraft.api.aspects.AspectList;
 import thaumcraft.api.crafting.IArcaneRecipe;
 import thaumcraft.api.crafting.ShapedArcaneRecipe;
 
+/**
+ * Created by OneNationUnderCanadia on 12/11/2014.
+ */
+
+// Implements interface IArcaneRecipe for all of Thaumachines
 public class ThaumachinesArcaneRecipe implements IArcaneRecipe {
 
     private final Object[] stuff;

@@ -1,10 +1,13 @@
 package com.onenationundercanadia.thaumachines.refrence;
 
 /**
- * Created by BJARK on 12/11/2014.
+ * Created by OneNationUnderCanadia on 12/11/2014.
  */
+
+// Refrence class for names
 public class RefrenceNames {
 
+    // Blocks
     public static final class Blocks {
 
         public static final String WAND_RECEPTACLE = "wandReceptacle";
@@ -14,12 +17,14 @@ public class RefrenceNames {
 
     }
 
+    // Items
     public static final class Items {
 
         public static final String RECEPTACLE_CORE = "receptacleCore";
 
     }
 
+    // NBT data
     public static final class NBT
     {
         public static final String ITEMS = "Items";

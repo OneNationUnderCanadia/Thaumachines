@@ -3,10 +3,14 @@ package com.onenationundercanadia.thaumachines.tileentity;
 import net.minecraft.item.ItemStack;
 
 /**
- * Created by BJARK on 12/11/2014.
+ * Created by OneNationUnderCanadia on 12/11/2014.
  */
+
+// TODO
+// Class for the Arcane Purifier as a TileEntity
 public class TileEntityArcanePurifier extends TileEntityThaumachines {
 
+    // Initialize variables
     public static final int INVENTORY_SIZE = 4;
     public static final int FUEL_INVENTORY_INDEX = 0;
     public static final int INPUT_INVENTORY_INDEX = 1;
@@ -21,6 +25,7 @@ public class TileEntityArcanePurifier extends TileEntityThaumachines {
 
     private ItemStack[] inventory;
 
+    // Constructor
     public TileEntityArcanePurifier()
     {
         inventory = new ItemStack[INVENTORY_SIZE];

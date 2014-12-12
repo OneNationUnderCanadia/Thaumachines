@@ -7,6 +7,12 @@ import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;
 
+/**
+ * Created by OneNationUnderCanadia on 12/11/2014.
+ */
+
+// Deals with configs
+//TODO: Actually use configs
 public class ConfigurationHandler {
 
     public static Configuration configuration;

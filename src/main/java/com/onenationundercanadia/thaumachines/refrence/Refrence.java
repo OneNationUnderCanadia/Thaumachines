@@ -1,8 +1,10 @@
 package com.onenationundercanadia.thaumachines.refrence;
 
 /**
- * Created by BJARK on 12/4/2014.
+ * Created by OneNationUnderCanadia on 12/11/2014.
  */
+
+// General refrence class
 public class Refrence {
 
     public static final String MOD_ID = "thaumachines";

@@ -5,6 +5,7 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.common.util.ForgeDirection;
 
+// Extends abstract TileEntity for other TileEntities in Thaumachines
 public class TileEntityThaumachines extends TileEntity {
 
     protected ForgeDirection orientation;

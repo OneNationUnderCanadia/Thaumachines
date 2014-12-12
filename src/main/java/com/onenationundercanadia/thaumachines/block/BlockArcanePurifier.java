@@ -39,6 +39,7 @@ public class BlockArcanePurifier extends BlockThaumachines {
 
     }
 
+    // TODO: Properly display textures
     @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister iconRegister) {

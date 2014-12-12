@@ -1,7 +1,9 @@
 package com.onenationundercanadia.thaumachines.proxy;
 
 /**
- * Created by BJARK on 12/4/2014.
+ * Created by OneNationUnderCanadia on 12/11/2014.
  */
+
+//UNUSED
 public class ServerProxy extends CommonProxy {
 }

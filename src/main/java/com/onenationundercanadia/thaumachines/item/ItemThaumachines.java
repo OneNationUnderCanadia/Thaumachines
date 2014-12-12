@@ -9,10 +9,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 /**
- * Created by BJARK on 12/8/2014.
+ * Created by OneNationUnderCanadia on 12/11/2014.
  */
+
+// Class for all Items to extend
 public class ItemThaumachines extends Item {
 
+    // Constructor
     public ItemThaumachines() {
 
         super();
@@ -20,6 +23,7 @@ public class ItemThaumachines extends Item {
 
     }
 
+    // Method to get the full name ("item.thaumachines:ITEM_NAME.name")
     @Override
     public String getUnlocalizedName(){
 
@@ -28,6 +32,7 @@ public class ItemThaumachines extends Item {
 
     }
 
+    // Method to get the full name ("item.thaumachines:ITEM_NAME.name")
     @Override
     public String getUnlocalizedName(ItemStack itemStack){
 
@@ -36,6 +41,7 @@ public class ItemThaumachines extends Item {
 
     }
 
+    // Registers the item's texture(s)
     @Override
     @SideOnly(Side.CLIENT)
     public void registerIcons(IIconRegister iconRegister){
@@ -44,6 +50,7 @@ public class ItemThaumachines extends Item {
 
     }
 
+    // Helps getUnlocalizedName
     protected String getUnwrappedUnlocalizedName(String unlocalizedName){
 
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);

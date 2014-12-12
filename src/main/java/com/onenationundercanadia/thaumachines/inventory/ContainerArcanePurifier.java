@@ -9,16 +9,20 @@ import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 
 /**
- * Created by BJARK on 12/11/2014.
+ * Created by OneNationUnderCanadia on 12/11/2014.
  */
+
+// TODO: Properly apply Arcane Purifier as a Container
 public class ContainerArcanePurifier extends ContainerThaumachines {
 
+    // Initializes variables
     private TileEntityArcanePurifier tileEntityArcanePurifier;
     private ContainerArcanePurifier containerArcanePurifier;
     private int lastDeviceCookTime;
     private int lastFuelBurnTime;
     private int lastItemCookTime;
 
+    // Constructor
     public ContainerArcanePurifier(InventoryPlayer inventoryPlayer, TileEntityArcanePurifier tileEntityArcanePurifier) {
 
         this.tileEntityArcanePurifier = tileEntityArcanePurifier;
@@ -26,19 +30,23 @@ public class ContainerArcanePurifier extends ContainerThaumachines {
         this.addSlotToContainer(new Slot((IInventory) tileEntityArcanePurifier, TileEntityArcanePurifier.FUEL_INVENTORY_INDEX, 44, 74));
         this.addSlotToContainer(new Slot((IInventory) tileEntityArcanePurifier, TileEntityArcanePurifier.INPUT_INVENTORY_INDEX, 44, 18));
         this.addSlotToContainer(new Slot((IInventory) tileEntityArcanePurifier, TileEntityArcanePurifier.DUST_INVENTORY_INDEX, 44, 39));
-        this.addSlotToContainer(new Slot((IInventory) tileEntityArcanePurifier, TileEntityArcanePurifier.OUTPUT_INVENTORY_INDEX, 120, 39)
-        {
+        this.addSlotToContainer(new Slot((IInventory) tileEntityArcanePurifier, TileEntityArcanePurifier.OUTPUT_INVENTORY_INDEX, 120, 39) {
+
             @Override
-            public void onPickupFromSlot(EntityPlayer entityPlayer, ItemStack itemStack)
-            {
+            public void onPickupFromSlot(EntityPlayer entityPlayer, ItemStack itemStack) {
+
                 super.onPickupFromSlot(entityPlayer, itemStack);
                 FMLCommonHandler.instance().firePlayerCraftingEvent(entityPlayer, itemStack, inventory);
+
             }
+
             @Override
-            public boolean isItemValid(ItemStack itemStack)
-            {
+            public boolean isItemValid(ItemStack itemStack) {
+
                 return false;
+
             }
+
         });
 
     }

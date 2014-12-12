@@ -4,6 +4,11 @@ import com.onenationundercanadia.thaumachines.refrence.Refrence;
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 
+/**
+ * Created by OneNationUnderCanadia on 12/11/2014.
+ */
+
+// Allows you to easily log anything, from anywhere in the mod
 public class LogHelper {
 
     public static void log(Level logLevel, Object object){

@@ -4,6 +4,11 @@ import net.minecraft.util.ResourceLocation;
 import thaumcraft.api.aspects.Aspect;
 import thaumcraft.api.aspects.AspectList;
 
+/**
+ * Created by OneNationUnderCanadia on 12/11/2014.
+ */
+
+// Refrence class for resource locations / aspect lists
 public class RefrenceResourceLocations {
 
     public static final String ARCANE_PURIFIER_UP = "thaumachines:textures/blocks/arcanePurifierUp.png";
