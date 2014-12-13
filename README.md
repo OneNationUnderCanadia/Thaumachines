@@ -9,7 +9,7 @@ An IDE (Eclipse or IntelliJ IDEA):
 https://www.jetbrains.com/idea/download/
 http://www.eclipse.org/downloads/?
 
-Minecraft Forge 1.7.10-10.13.2.1230:
+Minecraft Forge 1.7.10-10.13.2.1230 (src version):
 http://files.minecraftforge.net/
 
 Thaumcraft 4.2.1.0:
@@ -34,3 +34,7 @@ From there, navigate to a folder called "mods".
 Place Thaumcraft and CodeChickenCore into it.
 Hit run in your IDE.
 Play Minecraft with Thaumcraft and Thaumachines!
+
+---
+
+In order to play in the actual minecraft environment, you will need a .jar file for Thaumachines, and I have not released one yet.
