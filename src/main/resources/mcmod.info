@@ -8,9 +8,9 @@
   "url": "",
   "updateUrl": "",
   "authorList": ["OneNationUnderCanadia"],
-  "credits": "Pahimar, for providing me with the information to create this",
+  "credits": "Pahimar","Azanor","pixlepix","nekosune",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": ["Thaumcraft"]
+  "dependencies": [""]
 }
 ]

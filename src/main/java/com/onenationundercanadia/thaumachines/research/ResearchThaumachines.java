@@ -55,8 +55,8 @@ public class ResearchThaumachines {
     // Sets the research pages
     private static void setPages() {
 
-        receptacles.setPages(new ResearchPage("0"), new ResearchPage(BlockArcanePurifier.purifierRecipe));
-        receptacles.setPages(new ResearchPage("0"), new ResearchPage(BlockWandReceptacle.receptacleRecipe), new ResearchPage("1"), new ResearchPage(ItemReceptacleCore.receptacleCoreRecipe));
+        purifier.setPages(new ResearchPage("tc.research_page.purifier.0"), new ResearchPage(BlockArcanePurifier.purifierRecipe));
+        receptacles.setPages(new ResearchPage("tc.research_page.receptacles.0"), new ResearchPage(BlockWandReceptacle.receptacleRecipe), new ResearchPage("tc.research_page.receptacles.1"), new ResearchPage(ItemReceptacleCore.receptacleCoreRecipe));
 
     }
 

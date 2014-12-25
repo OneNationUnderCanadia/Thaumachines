@@ -17,7 +17,7 @@ public class Recipes {
     public static void init() {
 
         BlockWandReceptacle.receptacleRecipe.registerRecipe();
-        BlockArcanePurifier.purifierRecipe.registerRecipe();
+        //BlockArcanePurifier.purifierRecipe.registerRecipe();
         ItemReceptacleCore.receptacleCoreRecipe.registerRecipe();
 
     }
